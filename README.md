@@ -1,4 +1,5 @@
 # Mood Machine — Static Website
+<!-- redeploy trigger: Actions policy fixed, re-running SWA deploy -->
 
 A single self-contained web page. `index.html` has everything inlined (styles, scripts, fonts-link), so it works on any modern browser — Windows/PC, Mac, iPhone (Safari), and Android (Chrome). It is fully responsive.
 
