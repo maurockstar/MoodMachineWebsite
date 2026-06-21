@@ -1,8 +1,13 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html"
+    "rewrite": "/index.html",
+    "exclude": [
+      "/*.{css,js,mjs,json,map,txt,xml,ico,png,jpg,jpeg,gif,svg,webp,avif,woff,woff2,ttf,eot}"
+    ]
   },
-  "mimeTypes": {
-    ".html": "text/html"
+  "globalHeaders": {
+    "cache-control": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
   }
 }
