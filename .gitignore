@@ -1,0 +1,15 @@
+# Local helpers & signals - stay on your machine, never published
+ship.cmd
+mm-autoship.ps1
+mm-autoship-hidden.vbs
+mm-setup-autoship.cmd
+mm-remove-autoship.cmd
+mm-rollback.cmd
+mm-ship-request.txt
+mm-rollback-request.txt
+mm-ship-status.txt
+mm-ship.log
+
+# OS cruft
+Thumbs.db
+.DS_Store
